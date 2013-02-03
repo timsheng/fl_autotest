@@ -1,0 +1,75 @@
+[0.004][INFO]:      ChromeDriver 26.0.1383.0 D:\tools\ruby-1.9.2\bin\chromedriver.exe
+[0.787][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.789][INFO]:      Using named testing interface
+[1.879][INFO]:      Connected to Chrome successfully. Version: 24.0.1312.56
+[1.905][FINE]:      Command received (/session/54f3b51c5a195e72a888e3d42fe3912d)
+[1.905][FINE]:      Command finished (/session/54f3b51c5a195e72a888e3d42fe3912d) with response {
+   "sessionId": "54f3b51c5a195e72a888e3d42fe3912d",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "24.0.1312.56",
+      "webStorageEnabled": true
+   }
+}
+
+[1.918][FINE]:      Command received (/session/54f3b51c5a195e72a888e3d42fe3912d/url) with params {
+   "url": "http://quan.51fanli.com"
+}
+
+[1.918][FINER]:     Waiting for all views to stop loading...
+[1.918][FINER]:     Done waiting for all views to stop loading
+[6.238][FINER]:     Waiting for all views to stop loading...
+[6.242][FINER]:     Done waiting for all views to stop loading
+[6.242][FINE]:      Command finished (/session/54f3b51c5a195e72a888e3d42fe3912d/url) with response {
+   "sessionId": "54f3b51c5a195e72a888e3d42fe3912d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.249][FINE]:      Command received (/session/54f3b51c5a195e72a888e3d42fe3912d/element) with params {
+   "using": "xpath",
+   "value": "//div[@class='qpub-pub']//a[contains(.,'\u6211\u8981\u53D1\u5E03\u4F18\u60E0\u5238')]"
+}
+
+[6.249][FINER]:     Waiting for all views to stop loading...
+[6.249][FINER]:     Done waiting for all views to stop loading
+[6.288][FINER]:     Waiting for all views to stop loading...
+[6.288][FINER]:     Done waiting for all views to stop loading
+[6.288][WARNING]:   Command finished (/session/54f3b51c5a195e72a888e3d42fe3912d/element) with response {
+   "sessionId": "54f3b51c5a195e72a888e3d42fe3912d",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
